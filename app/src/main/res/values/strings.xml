@@ -2,4 +2,6 @@
     <string name="app_name">Duck</string>
     <string name="text">It\'s a duck!</string>
     <string name="another_text">(not a real one)</string>
+    <string name="textOn">вкл</string>
+    <string name="textOff">выкл</string>
 </resources>
