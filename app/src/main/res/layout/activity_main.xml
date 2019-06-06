@@ -37,7 +37,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/textOn"
+            android:onClick="onToggleButtonClicked"
             android:textOff="@string/textOff"/>
+
+        <Switch
+            android:id="@+id/switch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/textOn"
+            android:textOff="@string/textOff"
+            android:onClick="onSwitchClicked"/>
 
 
 
