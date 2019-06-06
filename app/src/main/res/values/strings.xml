@@ -8,6 +8,8 @@
     <string name="milk">milk</string>
     <string name="cavemen">cavemen</string>
     <string name="astronauts">astronauts</string>
+    <string name="click_me">click me</string>
+    <string name="image_button">image button</string>
 
     <string-array name="spinner_values">
         <item>light</item>
