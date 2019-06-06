@@ -81,4 +81,7 @@ public class MainActivity extends AppCompatActivity {
         String selected = String.valueOf(spinner.getSelectedItem());
     }
 
+    public void onImageButtonClick(View view) {
+
+    }
 }

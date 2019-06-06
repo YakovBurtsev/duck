@@ -95,6 +95,14 @@
             android:drawableEnd="@drawable/ic_launcher_foreground"
             android:text="@string/click_me" />
 
+        <ImageButton
+            android:id="@+id/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_button"
+            android:onClick="onImageButtonClick"
+            android:src="@drawable/ic_launcher_foreground" />
+
     </LinearLayout>
 
 
