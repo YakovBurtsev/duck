@@ -48,9 +48,19 @@
             android:textOff="@string/textOff"
             android:onClick="onSwitchClicked"/>
 
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sugar"
+            android:onClick="onSugarCheckBoxClicked"/>
 
-
-
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk"
+            android:onClick="onMilkCheckBoxClicked"/>
 
     </LinearLayout>
 

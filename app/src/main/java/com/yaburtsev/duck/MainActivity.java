@@ -3,6 +3,7 @@ package com.yaburtsev.duck;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
@@ -31,6 +32,24 @@ public class MainActivity extends AppCompatActivity {
             //on
         } else {
             //off
+        }
+    }
+
+    public void onSugarCheckBoxClicked(View view) {
+        CheckBox checkBox = (CheckBox) view;
+        if (checkBox.isChecked()) {
+
+        } else {
+
+        }
+    }
+
+    public void onMilkCheckBoxClicked(View view) {
+        CheckBox checkBox = (CheckBox) view;
+        if (checkBox.isChecked()) {
+
+        } else {
+
         }
     }
 }
