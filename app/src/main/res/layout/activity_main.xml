@@ -49,14 +49,14 @@
             android:onClick="onSwitchClicked"/>
 
         <CheckBox
-            android:id="@+id/checkbox1"
+            android:id="@+id/checkbox_sugar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sugar"
             android:onClick="onSugarCheckBoxClicked"/>
 
         <CheckBox
-            android:id="@+id/checkbox2"
+            android:id="@+id/checkbox_milk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/milk"
