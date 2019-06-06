@@ -8,4 +8,12 @@
     <string name="milk">milk</string>
     <string name="cavemen">cavemen</string>
     <string name="astronauts">astronauts</string>
+
+    <string-array name="spinner_values">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
+
 </resources>

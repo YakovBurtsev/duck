@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
@@ -65,4 +66,10 @@ public class MainActivity extends AppCompatActivity {
             radioButton.getText();
         }
     }
+
+    public void spinner() {
+        Spinner spinner = findViewById(R.id.spinner);
+        String selected = String.valueOf(spinner.getSelectedItem());
+    }
+
 }
