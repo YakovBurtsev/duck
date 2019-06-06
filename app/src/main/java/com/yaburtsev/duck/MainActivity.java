@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -16,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void imageView() {
+        ImageView photo = findViewById(R.id.photo);
+        int image = R.drawable.duck;
+        String description = "This is the duck!";
+        photo.setImageResource(image);
+        photo.setContentDescription(description);
     }
 
     public void onToggleButtonClicked(View view) {
