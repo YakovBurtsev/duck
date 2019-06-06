@@ -10,6 +10,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -85,5 +86,11 @@ public class MainActivity extends AppCompatActivity {
     public void onImageButtonClick(View view) {
         Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
+    }
+
+    public void onButtonClick(View view) {
+        int duration = Toast.LENGTH_SHORT;
+        String text = "Button was clicked!";
+        Toast.makeText(this, text, duration).show();
     }
 }
